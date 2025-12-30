@@ -1,4 +1,4 @@
-# LAI KANG WEI
+# AUTHOR: LAI KANG WEI
 
 # To_Do_List
 This is a To-Do-List webapp coded using React.js and .Net
