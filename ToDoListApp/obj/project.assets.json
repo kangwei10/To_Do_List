@@ -477,11 +477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KLI19\\app\\ToDoListApp\\ToDoListApp.csproj",
+      "projectUniqueName": "C:\\Users\\KLI19\\Downloads\\To_Do_List\\ToDoListApp\\ToDoListApp.csproj",
       "projectName": "ToDoListApp",
-      "projectPath": "C:\\Users\\KLI19\\app\\ToDoListApp\\ToDoListApp.csproj",
+      "projectPath": "C:\\Users\\KLI19\\Downloads\\To_Do_List\\ToDoListApp\\ToDoListApp.csproj",
       "packagesPath": "C:\\Users\\KLI19\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KLI19\\app\\ToDoListApp\\obj\\",
+      "outputPath": "C:\\Users\\KLI19\\Downloads\\To_Do_List\\ToDoListApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

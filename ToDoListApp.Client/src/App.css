@@ -1,0 +1,143 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.popup {
+  background: lightgray;
+  padding: 30px;
+  width: 500px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.dialog-group {
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-group label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.popup input,
+.popup select {
+
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.task-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.task-content {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.task-info {
+  font-size: 14px;
+  color: #555;
+}
+
+.task-info p {
+  margin: 4px 0;
+}
+
+/* Priority Colors */
+.task-card.high {
+  border-left: 6px solid #e74c3c;
+}
+
+.task-card.medium {
+  border-left: 6px solid #f1c40f;
+}
+
+.task-card.low {
+  border-left: 6px solid #2ecc71;
+}
