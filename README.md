@@ -1,5 +1,5 @@
 # To_Do_List
-This is a To-Do-List coded using React.js and .Net
+This is a To-Do-List webapp coded using React.js and .Net
 
 ## To run the app
 1. cd ToDoListApp
